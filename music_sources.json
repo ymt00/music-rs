@@ -1,0 +1,13 @@
+{
+    "FIP":                    "footclient --app-id play-radio mpv https://stream.radiofrance.fr/fip/fip_hifi.m3u8",
+    "France info":            "footclient --app-id play-radio mpv https://stream.radiofrance.fr/franceinfo/franceinfo_hifi.m3u8",
+    "France Inter":           "footclient --app-id play-radio mpv https://stream.radiofrance.fr/franceinter/franceinter_hifi.m3u8",
+    "France Culture":         "footclient --app-id play-radio mpv https://stream.radiofrance.fr/franceculture/franceculture_hifi.m3u8",
+    "France Musique":         "footclient --app-id play-radio mpv https://stream.radiofrance.fr/francemusique/francemusique_hifi.m3u8",
+    "Le Mouv'":               "footclient --app-id play-radio mpv https://stream.radiofrance.fr/mouv/mouv_hifi.m3u8",
+    "La Grosse Radio Rock":   "footclient --app-id play-radio mpv https://hd.lagrosseradio.info/lagrosseradio-rock-192.mp3",
+    "La Grosse Radio Métal":  "footclient --app-id play-radio mpv https://hd.lagrosseradio.info/lagrosseradio-metal-192.mp3",
+    "La Grosse Radio Reggae": "footclient --app-id play-radio mpv https://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3",
+    "Radiomeuh":              "footclient --app-id play-radio mpv https://radiomeuh2.ice.infomaniak.ch/radiomeuh2-128.mp3",
+    "Yewtube":                "footclient --app-id yewtube yt"
+}
