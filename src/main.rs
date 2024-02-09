@@ -16,7 +16,7 @@ fn main() {
         .members()
         .map(|w: &JsonValue| get_apps(Node::new(w)) + "\n")
         .collect::<String>()
-        .trim_end_matches("\n")
+        .trim_end_matches('\n')
         .to_string();
 
     let show_menu: &str = apps
@@ -37,7 +37,7 @@ fn main() {
                 .entries()
                 .map(|e: (&str, &JsonValue)| e.0.to_owned() + "\n")
                 .collect::<String>()
-                .trim_end_matches("\n"),
+                .trim_end_matches('\n'),
             &BEMENU_ARGS,
         );
 
